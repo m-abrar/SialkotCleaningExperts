@@ -47,6 +47,7 @@ export default function RootLayout({
     image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80',
     telephone: BUSINESS_INFO.internationalPhone,
     email: BUSINESS_INFO.email,
+    hasMap: BUSINESS_INFO.mapSearchUrl,
     address: {
       '@type': 'PostalAddress',
       streetAddress: BUSINESS_INFO.landmark,

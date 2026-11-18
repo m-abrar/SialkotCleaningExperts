@@ -74,7 +74,7 @@ export const Location: React.FC = () => {
             <div className="rounded-3xl overflow-hidden shadow-card border border-slate-200 bg-slate-100 h-[380px] sm:h-[450px] relative">
               <iframe
                 title="Sialkot Sofa Carpet Cleaning Experts Location"
-                src="https://maps.google.com/maps?q=Haji+Pura+Road+Hajipura+Sialkot+Pakistan&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                src={BUSINESS_INFO.mapEmbedUrl}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
