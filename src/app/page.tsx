@@ -1,21 +1,21 @@
 import React from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { SpecialOffer } from './components/SpecialOffer';
-import { ServiceHighlightBar } from './components/ServiceHighlightBar';
-import { Services } from './components/Services';
-import { PriceList } from './components/PriceList';
-import { WhyChooseUs } from './components/WhyChooseUs';
-import { Gallery } from './components/Gallery';
-import { About } from './components/About';
-import { Reviews } from './components/Reviews';
-import { FAQ } from './components/FAQ';
-import { ContactBooking } from './components/ContactBooking';
-import { Location } from './components/Location';
-import { Footer } from './components/Footer';
-import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { Navbar } from '../components/Navbar';
+import { Hero } from '../components/Hero';
+import { SpecialOffer } from '../components/SpecialOffer';
+import { ServiceHighlightBar } from '../components/ServiceHighlightBar';
+import { Services } from '../components/Services';
+import { PriceList } from '../components/PriceList';
+import { WhyChooseUs } from '../components/WhyChooseUs';
+import { Gallery } from '../components/Gallery';
+import { About } from '../components/About';
+import { Reviews } from '../components/Reviews';
+import { FAQ } from '../components/FAQ';
+import { ContactBooking } from '../components/ContactBooking';
+import { Location } from '../components/Location';
+import { Footer } from '../components/Footer';
+import { FloatingWhatsApp } from '../components/FloatingWhatsApp';
 
-export const App: React.FC = () => {
+export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-brand-softBg text-brand-darkText">
       {/* Sticky Header Navigation with Announcement Bar */}
@@ -66,6 +66,4 @@ export const App: React.FC = () => {
       <FloatingWhatsApp />
     </div>
   );
-};
-
-export default App;
+}

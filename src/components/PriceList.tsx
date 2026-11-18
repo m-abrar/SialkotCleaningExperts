@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Tag, Sparkles, MessageSquare, ShieldCheck, ArrowRight, Check } from 'lucide-react';
 import { OFFICIAL_PRICE_LIST, BUSINESS_INFO } from '../data/business';

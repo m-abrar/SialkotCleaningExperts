@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Sparkles, Phone, MapPin, MessageSquare, ArrowUp, Star } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/business';

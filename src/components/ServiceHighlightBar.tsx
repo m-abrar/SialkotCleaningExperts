@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Armchair, Layers, Bed, Sparkles, Building2, Tag } from 'lucide-react';
 

@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import { Phone, Menu, X, Sparkles, MessageSquare, Flame } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/business';

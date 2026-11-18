@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { Maximize2, Sparkles } from 'lucide-react';
 import { GALLERY_DATA } from '../data/galleryData';
